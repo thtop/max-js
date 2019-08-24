@@ -32,5 +32,4 @@ console.log(m / n); // 0
 var g = 10;
 var h = 3;
 console.log(g % h); // 1
-
 ```
