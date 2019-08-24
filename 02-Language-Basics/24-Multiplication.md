@@ -23,7 +23,7 @@ if ((d * e).toFixed(2) == 2.86) {
     console.log('false'); 
 }
 
-// ** *
+// ** Multiple
 var f = 2;
 var g = '2.2';
 console.log(f * g); // 4.4
