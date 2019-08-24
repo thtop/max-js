@@ -1,6 +1,6 @@
 # Course content
-1. [Section 1: Getting Started](01-Getting-Started/01-Introduction.markdown)
-2. [Section 2: Language Basics](02-Language-Basics/01-Introduction.markdown)
+1. [Section 1: Getting Started](01-Getting-Started/01-Introduction.md)
+2. [Section 2: Language Basics](02-Language-Basics/01-Introduction.md)
 3. Section 3: Types & Scope 
 4. Section 4: Arrays
 5. Section 5: Objects
