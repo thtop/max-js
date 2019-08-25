@@ -17,14 +17,15 @@ console.log(person);
 console.log(person.name);
 console.log(person.details.hobbies);
 
-
+// ** field
 var field = 'name';
 console.log(person[field]);
 console.log(person['first-name']); // Commander
 
-// function
+// ** function
 person.greet();
 
+// ** typeof
 console.log(typeof person); // object
 console.log(typeof person.name); // string
 
