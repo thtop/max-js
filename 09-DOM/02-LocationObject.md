@@ -10,7 +10,4 @@ console.log(location.reload(true));
 
 location.reload();
 location.replace('http://www.google.com');
-
-
-
 ```
