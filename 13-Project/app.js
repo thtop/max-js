@@ -6,6 +6,9 @@
 searchButton.addEventListener('click', searchWeather);
 
 function searchWeather() {
+    loadingText.style.display = 'block';
+    weatherBox.style.display = 'none';
+
     var cityName = searchCity.value;
 
     console.log(cityName);
@@ -28,9 +31,20 @@ function searchWeather() {
 
             //console.log(weatherData);
 
+            updateWeather(weatherData);
+
         } else if (http.readyState == XMLHttpRequest.DONE && http.status !== 200) {
             alert('Something went wrong!');
         }
     };
     http.send();
+}
+
+function updateWeather(weatherData) {
+    weatherCity.textContent = weatherData.cityName;
+    weatherDescription.textContent = weatherData.description;
+    weatherTemperature.textContent = weatherData.temperature;
+
+    loadingText.style.display = 'none';
+    weatherBox.style.display = 'block';
 }
