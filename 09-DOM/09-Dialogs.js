@@ -1,5 +1,4 @@
 // Dialogs
-
 alert('This an alert!');
 
 confirm('Are you sure you want to delete'); // Yes | Cancel
